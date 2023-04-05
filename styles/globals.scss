@@ -1,0 +1,59 @@
+@import "bootstrap/dist/css/bootstrap.css"; //bootstrap
+@import url("https://fonts.googleapis.com/css2?family=Cairo&display=swap"); //main font
+@import url("https://fonts.googleapis.com/css2?family=Kufam:ital@1&display=swap"); //header font
+@import url("https://fonts.googleapis.com/css2?family=Vibes&display=swap"); //sign font
+$sign-font: "Vibes";
+$main-font: "Cairo";
+$header-font: "Kufam";
+body {
+  overflow-x: hidden;
+  direction: rtl;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+* {
+  font-family: $main-font;
+}
+
+$gold-color: #ffd333;
+$dark-color: #3d464d;
+
+a {
+  text-decoration: none;
+}
+.hadle-Padding-margin-Global {
+  padding: 40px 0;
+  margin-top: 50px;
+}
+.container {
+  max-width: 1140px;
+}
+.buyed {
+  background-color: white !important;
+  color: $dark-color !important;
+}
+.SelectedCart {
+  border-color: blue !important;
+}
+.true {
+  border-color: rgb(3, 168, 3) !important;
+  border-width: 2px;
+}
+.wrong {
+  border-color: red !important;
+  border-width: 2px;
+}
+@media (max-width: 992px) {
+  .container {
+    max-width: 665px;
+  }
+}
+@import "Assest/Navbar";
+@import "Assest/HomePage";
+@import "Assest/About";
+@import "Assest/Footer";
+@import "Assest/Shop";
+@import "Assest/cart";
+@import "Assest/checkout";

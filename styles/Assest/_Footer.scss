@@ -1,0 +1,89 @@
+footer {
+  background-color: $dark-color;
+  margin-top: 100px;
+  padding: 40px 0;
+  padding-bottom: 0;
+  text-align: center;
+  color: white;
+  .head {
+    font-size: 29px;
+    font-weight: bold;
+    font-family: $header-font;
+    color: $gold-color;
+  }
+  .desc {
+    margin-top: 21px;
+  }
+  .form {
+    width: 500px;
+    margin: auto;
+    margin-top: 45px;
+    .form-control {
+      border-radius: 0px;
+      height: 50px;
+    }
+    .submit {
+      background-color: $gold-color;
+      color: $dark-color;
+      padding: 5px;
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+    }
+  }
+  .imp_note {
+    font-size: 14px;
+    margin-top: 14px;
+    color: #838383;
+  }
+  .details {
+    margin: auto;
+    width: 800px;
+    margin-top: 55px;
+    margin-bottom: 25px;
+    svg {
+      margin-right: 5px;
+    }
+    a {
+      color: white;
+    }
+  }
+  .copy {
+    background-color: white;
+    color: black;
+    padding: 10px 0;
+    a {
+      font-family: $header-font;
+      font-weight: bold;
+      color: black;
+    }
+  }
+  @media (max-width: 992px) {
+    .details {
+      width: 100%;
+    }
+    .form {
+      width: 100%;
+    }
+  }
+  @media (max-width: 767px) {
+    margin-top: 170px;
+  }
+  @media (max-width: 575px) {
+    .head {
+      font-size: 19px;
+    }
+    .details {
+      display: block !important;
+      .details_01 {
+        margin: 30px auto;
+      }
+      .header {
+        font-size: 23px;
+      }
+    }
+    .desc {
+      font-size: 14px;
+    }
+  }
+}

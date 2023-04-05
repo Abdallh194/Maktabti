@@ -1,0 +1,56 @@
+.cart {
+  text-align: center;
+  .head {
+    font-size: 28px;
+    text-align: center;
+    padding: 10px 0;
+    font-family: $header-font;
+  }
+  .headers {
+    background-color: $gold-color;
+    padding: 10px 0;
+  }
+  .header {
+    text-align: center;
+  }
+  .details {
+    margin-top: 30px;
+  }
+  .books-details {
+    background-color: $dark-color;
+    color: white;
+    border-top: 1px solid white;
+    align-items: center;
+    padding: 10px 0;
+    img {
+      width: 45%;
+    }
+    .dlt {
+      color: red;
+      cursor: pointer;
+    }
+  }
+  .billheader {
+    color: black;
+    margin-top: 7px;
+  }
+  .form {
+    display: flex;
+    margin-bottom: 15px;
+    .form-control {
+      border-top-left-radius: 0px;
+      border-bottom-left-radius: 0px;
+    }
+    button {
+      border-top-right-radius: 0px;
+      border-bottom-right-radius: 0px;
+    }
+  }
+  .check {
+    background-color: $gold-color;
+    color: $dark-color;
+    padding: 10px 0;
+    margin-top: 15px;
+    width: 100%;
+  }
+}

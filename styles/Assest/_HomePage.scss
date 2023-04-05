@@ -1,0 +1,64 @@
+.HomePage {
+  margin-top: 20px;
+  .text-box {
+    .head {
+      margin-top: 80px;
+      padding: 50px 0;
+      font-size: 21px;
+      position: relative;
+      padding-right: 26px;
+      &::after {
+        content: "";
+        position: absolute;
+        background-color: #e8dcce;
+        height: 100%;
+        width: 15px;
+        right: 0;
+        top: 0;
+      }
+    }
+    .desc {
+      background-color: $dark-color;
+      color: white;
+      padding: 30px;
+      margin-top: 70px;
+      text-align: center;
+      .content {
+        border: 1px solid white;
+        padding: 50px;
+        font-size: 18px;
+        line-height: 1.7;
+      }
+      .header {
+        font-family: $header-font;
+        font-weight: bold;
+        color: $gold-color;
+        font-size: 28px;
+        margin-bottom: 15px;
+      }
+    }
+  }
+  .sign {
+    font-family: $sign-font;
+    font-size: 112px;
+    margin-top: 20px;
+    text-align: center;
+  }
+  .name {
+    background-color: $dark-color;
+    color: white;
+    padding: 12px;
+    font-size: 18px;
+  }
+  @media (max-width: 1200px) {
+    .text-box {
+      .desc {
+        .content {
+          padding: 29px;
+          font-size: 17px;
+          line-height: 1.5;
+        }
+      }
+    }
+  }
+}

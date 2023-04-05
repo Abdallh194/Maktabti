@@ -1,0 +1,20 @@
+.checkout {
+  .head {
+    font-size: 28px;
+    text-align: center;
+    padding: 10px 0;
+    font-family: $header-font;
+  }
+  .details {
+    .form-control {
+      margin: 10px auto;
+      height: 45px;
+      border-radius: 0;
+    }
+  }
+  #submit {
+    background-color: $gold-color;
+    width: 150px;
+    margin: 10px auto;
+  }
+}

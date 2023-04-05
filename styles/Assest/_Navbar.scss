@@ -1,0 +1,35 @@
+.navbar {
+  background-color: white !important;
+  padding: 30px 0;
+  .logo {
+    .pt_01,
+    .pt_02 {
+      padding: 10px;
+      font-size: 31px;
+    }
+    .pt_01 {
+      padding-left: 5px;
+      background-color: $dark-color;
+      color: $gold-color;
+    }
+    .pt_02 {
+      padding-right: 5px;
+      background-color: $gold-color;
+      color: $dark-color;
+    }
+  }
+  .links {
+    a {
+      margin: 0 10px;
+      color: #333;
+    }
+  }
+  @media (max-width: 767px) {
+    .logo {
+      .pt_01,
+      .pt_02 {
+        font-size: 22px;
+      }
+    }
+  }
+}

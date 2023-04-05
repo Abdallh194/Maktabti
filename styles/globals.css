@@ -1,0 +1,597 @@
+@import "bootstrap/dist/css/bootstrap.css";
+@import url("https://fonts.googleapis.com/css2?family=Cairo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kufam:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Vibes&display=swap");
+body {
+  overflow-x: hidden;
+  direction: rtl;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+* {
+  font-family: "Cairo";
+}
+
+a {
+  text-decoration: none;
+}
+
+.hadle-Padding-margin-Global {
+  padding: 40px 0;
+  margin-top: 50px;
+}
+
+.container {
+  max-width: 1140px;
+}
+
+.buyed {
+  background-color: white !important;
+  color: #3d464d !important;
+}
+
+.SelectedCart {
+  border-color: blue !important;
+}
+
+.true {
+  border-color: rgb(3, 168, 3) !important;
+  border-width: 2px;
+}
+
+.wrong {
+  border-color: red !important;
+  border-width: 2px;
+}
+
+@media (max-width: 992px) {
+  .container {
+    max-width: 665px;
+  }
+}
+.navbar {
+  background-color: white !important;
+  padding: 30px 0;
+}
+.navbar .logo .pt_01,
+.navbar .logo .pt_02 {
+  padding: 10px;
+  font-size: 31px;
+}
+.navbar .logo .pt_01 {
+  padding-left: 5px;
+  background-color: #3d464d;
+  color: #ffd333;
+}
+.navbar .logo .pt_02 {
+  padding-right: 5px;
+  background-color: #ffd333;
+  color: #3d464d;
+}
+.navbar .links a {
+  margin: 0 10px;
+  color: #333;
+}
+@media (max-width: 767px) {
+  .navbar .logo .pt_01,
+  .navbar .logo .pt_02 {
+    font-size: 22px;
+  }
+}
+
+.HomePage {
+  margin-top: 20px;
+}
+.HomePage .text-box .head {
+  margin-top: 80px;
+  padding: 50px 0;
+  font-size: 21px;
+  position: relative;
+  padding-right: 26px;
+}
+.HomePage .text-box .head::after {
+  content: "";
+  position: absolute;
+  background-color: #e8dcce;
+  height: 100%;
+  width: 15px;
+  right: 0;
+  top: 0;
+}
+.HomePage .text-box .desc {
+  background-color: #3d464d;
+  color: white;
+  padding: 30px;
+  margin-top: 70px;
+  text-align: center;
+}
+.HomePage .text-box .desc .content {
+  border: 1px solid white;
+  padding: 50px;
+  font-size: 18px;
+  line-height: 1.7;
+}
+.HomePage .text-box .desc .header {
+  font-family: "Kufam";
+  font-weight: bold;
+  color: #ffd333;
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+.HomePage .sign {
+  font-family: "Vibes";
+  font-size: 112px;
+  margin-top: 20px;
+  text-align: center;
+}
+.HomePage .name {
+  background-color: #3d464d;
+  color: white;
+  padding: 12px;
+  font-size: 18px;
+}
+@media (max-width: 1200px) {
+  .HomePage .text-box .desc .content {
+    padding: 29px;
+    font-size: 17px;
+    line-height: 1.5;
+  }
+}
+
+.About {
+  margin-top: 135px;
+  position: relative;
+}
+.About::after {
+  content: "";
+  background-color: #ffd333;
+  width: 50%;
+  height: 41%;
+  right: 135px;
+  position: absolute;
+  top: -25px;
+  z-index: -1;
+}
+.About img {
+  width: 100%;
+}
+.About .content {
+  background-color: #3d464d;
+  color: white;
+  width: 458px;
+  padding: 40px;
+  position: absolute;
+  top: 58%;
+  left: 17%;
+}
+.About .head {
+  font-size: 40px;
+  padding: 10px 0;
+}
+.About .more {
+  background-color: #ffd333;
+  width: 150px;
+  text-align: center;
+  padding: 10px 0;
+  margin: 20px 0;
+  color: #3d464d;
+}
+@media (max-width: 1400px) {
+  .About::after {
+    right: 12px;
+  }
+}
+@media (max-width: 1200px) {
+  .About::after {
+    height: 80%;
+  }
+  .About img {
+    width: 85%;
+    display: block;
+    margin: auto;
+  }
+}
+@media (max-width: 992px) {
+  .About::after {
+    right: 86px;
+  }
+  .About img {
+    width: 100%;
+  }
+  .About .content {
+    width: 415px;
+    padding: 0px 30px;
+    top: 50%;
+    left: 21%;
+  }
+}
+@media (max-width: 767px) {
+  .About::after {
+    right: 10px;
+  }
+  .About .content {
+    top: 67%;
+    left: 13%;
+  }
+}
+@media (max-width: 575px) {
+  .About img {
+    width: 75%;
+  }
+  .About::after {
+    height: 32%;
+    top: -14px;
+    width: 71%;
+  }
+  .About .content {
+    width: 100%;
+    margin: auto;
+    position: relative;
+    left: 0;
+    padding: 30px;
+  }
+}
+
+footer {
+  background-color: #3d464d;
+  margin-top: 100px;
+  padding: 40px 0;
+  padding-bottom: 0;
+  text-align: center;
+  color: white;
+}
+footer .head {
+  font-size: 29px;
+  font-weight: bold;
+  font-family: "Kufam";
+  color: #ffd333;
+}
+footer .desc {
+  margin-top: 21px;
+}
+footer .form {
+  width: 500px;
+  margin: auto;
+  margin-top: 45px;
+}
+footer .form .form-control {
+  border-radius: 0px;
+  height: 50px;
+}
+footer .form .submit {
+  background-color: #ffd333;
+  color: #3d464d;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+footer .imp_note {
+  font-size: 14px;
+  margin-top: 14px;
+  color: #838383;
+}
+footer .details {
+  margin: auto;
+  width: 800px;
+  margin-top: 55px;
+  margin-bottom: 25px;
+}
+footer .details svg {
+  margin-right: 5px;
+}
+footer .details a {
+  color: white;
+}
+footer .copy {
+  background-color: white;
+  color: black;
+  padding: 10px 0;
+}
+footer .copy a {
+  font-family: "Kufam";
+  font-weight: bold;
+  color: black;
+}
+@media (max-width: 992px) {
+  footer .details {
+    width: 100%;
+  }
+  footer .form {
+    width: 100%;
+  }
+}
+@media (max-width: 767px) {
+  footer {
+    margin-top: 170px;
+  }
+}
+@media (max-width: 575px) {
+  footer .head {
+    font-size: 19px;
+  }
+  footer .details {
+    display: block !important;
+  }
+  footer .details .details_01 {
+    margin: 30px auto;
+  }
+  footer .details .header {
+    font-size: 23px;
+  }
+  footer .desc {
+    font-size: 14px;
+  }
+}
+
+.Shop {
+  position: relative;
+}
+.Shop .container {
+  max-width: 1300px;
+}
+.Shop .red_book {
+  background: url("img/shop_header_01.jpg");
+  height: 400px;
+  background-size: cover;
+  margin-top: 30px;
+}
+.Shop .head-box {
+  position: relative;
+  color: white;
+}
+.Shop .head-box .overlay {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.425);
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+.Shop .head-box .content {
+  text-align: center;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 40px;
+}
+.Shop .head-box .head {
+  font-size: 30px;
+  padding: 10px 0;
+  font-weight: bold;
+}
+.Shop .head-box .desc {
+  color: #9f9f9f;
+}
+.Shop .head-box .shopnow {
+  width: 150px;
+  text-align: center;
+  margin: 15px auto;
+  padding: 10px 0;
+  border: 1px solid white;
+  color: white;
+  transition: 0.4s;
+}
+.Shop .head-box .shopnow:hover {
+  background-color: white;
+  color: #3d464d;
+}
+.Shop .box_01 {
+  background: url("img/shop_header_02.jpg");
+  margin-top: 30px;
+}
+.Shop .box_02 {
+  background: url("img/shop_header_03.jpg");
+  margin-top: 14px;
+}
+.Shop .box_01,
+.Shop .box_02 {
+  height: 193px;
+  background-size: cover;
+}
+.Shop .box_01 .head,
+.Shop .box_02 .head {
+  font-size: 23px;
+}
+.Shop .box_01 .shopnow,
+.Shop .box_02 .shopnow {
+  background-color: #ffd333;
+  border: none;
+  width: 105px;
+  color: #3d464d;
+}
+.Shop .booxes {
+  margin-top: 80px;
+}
+.Shop .head {
+  font-size: 32px;
+}
+.Shop .book-box {
+  position: relative;
+  background-color: #ffd333;
+  width: 23%;
+  margin: 20px auto;
+  border-radius: 15px;
+  padding: 30px 0 25px 0;
+  z-index: 1;
+  border: 2px solid white;
+  overflow: hidden;
+}
+.Shop .book-box .imgbox img {
+  display: block;
+  margin: auto;
+  width: 95px;
+  height: 135px;
+}
+.Shop .book-box .details {
+  text-align: center;
+  color: white;
+  padding: 20px 0;
+}
+.Shop .book-box .header {
+  font-family: "Kufam";
+  font-size: 15px;
+}
+.Shop .book-box .price {
+  font-weight: bold;
+  font-family: "Vibes";
+  font-size: 19px;
+  padding-top: 4px;
+}
+.Shop .book-box .buy {
+  position: absolute;
+  background-color: #ffd333;
+  width: 107px;
+  text-align: center;
+  bottom: -40px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 4px 0;
+  border-radius: 23px;
+  transition: 0.4s;
+  cursor: pointer;
+}
+.Shop .book-box:hover .buy {
+  bottom: 12px;
+}
+.Shop .book-box:hover::before {
+  -webkit-clip-path: polygon(0 4%, 100% 37%, 100% 100%, 0% 100%);
+          clip-path: polygon(0 4%, 100% 37%, 100% 100%, 0% 100%);
+}
+.Shop .book-box::before {
+  position: absolute;
+  content: "";
+  background-color: #3d464d;
+  -webkit-clip-path: polygon(0 58%, 100% 32%, 100% 100%, 0% 100%);
+          clip-path: polygon(0 58%, 100% 32%, 100% 100%, 0% 100%);
+  width: 100%;
+  transition: 0.4s;
+  height: 85%;
+  bottom: 0;
+  z-index: -1;
+}
+.Shop .maincart {
+  position: fixed;
+  left: 10%;
+  bottom: 10%;
+  z-index: 1;
+  color: red;
+}
+.Shop .maincart::before {
+  content: attr(data-name);
+  position: absolute;
+  background-color: black;
+  width: 20px;
+  left: 20px;
+  top: 2px;
+  height: 20px;
+  font-size: 15px;
+  border-radius: 50%;
+  text-align: center;
+  color: white;
+}
+@media (max-width: 992px) {
+  .Shop .offers_20 {
+    padding: 0;
+  }
+  .Shop .box_01 {
+    margin-top: 14px;
+  }
+  .Shop .book-box {
+    width: 47%;
+    margin: 7px auto;
+  }
+}
+@media (max-width: 575px) {
+  .Shop .offers_20 {
+    display: contents;
+  }
+  .Shop .box_01,
+  .Shop .box_02 {
+    width: 48%;
+    margin: auto;
+    margin-top: 10px;
+  }
+  .Shop .box_01 .content,
+  .Shop .box_02 .content {
+    padding: 0;
+  }
+}
+
+.cart {
+  text-align: center;
+}
+.cart .head {
+  font-size: 28px;
+  text-align: center;
+  padding: 10px 0;
+  font-family: "Kufam";
+}
+.cart .headers {
+  background-color: #ffd333;
+  padding: 10px 0;
+}
+.cart .header {
+  text-align: center;
+}
+.cart .details {
+  margin-top: 30px;
+}
+.cart .books-details {
+  background-color: #3d464d;
+  color: white;
+  border-top: 1px solid white;
+  align-items: center;
+  padding: 10px 0;
+}
+.cart .books-details img {
+  width: 45%;
+}
+.cart .books-details .dlt {
+  color: red;
+  cursor: pointer;
+}
+.cart .billheader {
+  color: black;
+  margin-top: 7px;
+}
+.cart .form {
+  display: flex;
+  margin-bottom: 15px;
+}
+.cart .form .form-control {
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+.cart .form button {
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+.cart .check {
+  background-color: #ffd333;
+  color: #3d464d;
+  padding: 10px 0;
+  margin-top: 15px;
+  width: 100%;
+}
+
+.checkout .head {
+  font-size: 28px;
+  text-align: center;
+  padding: 10px 0;
+  font-family: "Kufam";
+}
+.checkout .details .form-control {
+  margin: 10px auto;
+  height: 45px;
+  border-radius: 0;
+}
+.checkout #submit {
+  background-color: #ffd333;
+  width: 150px;
+  margin: 10px auto;
+}/*# sourceMappingURL=globals.css.map */
