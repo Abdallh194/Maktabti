@@ -8,7 +8,7 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 
 function NavScrollExample() {
   return (
-    <Navbar bg="light" expand="lg">
+    <Navbar expand="lg">
       <Container>
         <Link href="/" className="logo">
           <span className="pt_01">مكت</span>

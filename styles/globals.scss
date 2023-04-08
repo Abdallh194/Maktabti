@@ -26,7 +26,7 @@ $dark-color: #3d464d;
   margin-top: 50px;
 }
 .container {
-  max-width: 1140px;
+  max-width: 1140px !important;
 }
 .buyed {
   background-color: white !important;
@@ -62,7 +62,13 @@ $dark-color: #3d464d;
 }
 @media (max-width: 992px) {
   .container {
-    max-width: 665px;
+    max-width: 665px !important;
+  }
+}
+@media (max-width: 575px) {
+  .ReactModal__Content {
+    top: 29%;
+    width: 81%;
   }
 }
 @import "Assest/Navbar";
