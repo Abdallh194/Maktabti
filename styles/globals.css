@@ -8,16 +8,13 @@ body {
 }
 
 a {
-  text-decoration: none;
+  text-decoration: none !important;
   display: inline-block;
 }
 
 * {
   font-family: "Cairo";
-}
-
-a {
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
 .hadle-Padding-margin-Global {
@@ -46,6 +43,24 @@ a {
 .wrong {
   border-color: red !important;
   border-width: 2px;
+}
+
+.ReactModal__Content {
+  width: 400px;
+  margin: 50px auto;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 40px;
+  text-align: center;
+}
+.ReactModal__Content .confirm {
+  background-color: #3d464d;
+  width: 150px;
+  margin: 10px auto;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  cursor: pointer;
 }
 
 @media (max-width: 992px) {
@@ -139,6 +154,11 @@ a {
     padding: 29px;
     font-size: 17px;
     line-height: 1.5;
+  }
+}
+@media (max-width: 575px) {
+  .HomePage .text-box .head {
+    margin-top: 25px;
   }
 }
 
@@ -307,7 +327,7 @@ footer .copy a {
 }
 @media (max-width: 767px) {
   footer {
-    margin-top: 170px;
+    margin-top: 0px;
   }
 }
 @media (max-width: 575px) {
@@ -594,4 +614,84 @@ footer .copy a {
   background-color: #ffd333;
   width: 150px;
   margin: 10px auto;
+}
+.checkout .pay {
+  background-color: #ffd333;
+  padding: 10px 0;
+  text-align: center;
+  margin: 18px 0;
+  cursor: pointer;
+}
+.checkout .error {
+  color: red;
+  text-align: center;
+}
+
+.Stories .head {
+  font-size: 28px;
+  text-align: center;
+  padding: 10px 0;
+  font-family: "Kufam";
+}
+.Stories .story {
+  margin: 40px 0;
+}
+.Stories .header {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "Kufam";
+  padding: 10px 0;
+}
+.Stories .img-box {
+  display: flex;
+  align-items: center;
+}
+.Stories .img-box img {
+  width: 100%;
+}
+.Stories .more {
+  background-color: #ffd333;
+  width: 150px;
+  padding: 10px 0;
+  text-align: center;
+  margin: 20px 0;
+  cursor: pointer;
+}
+
+.Catigoires .head {
+  font-size: 28px;
+  padding: 10px 0;
+  font-family: "Kufam";
+}
+.Catigoires .cat-box {
+  display: flex;
+  background-color: rgba(238, 238, 238, 0.6431372549);
+  width: 23%;
+  margin: 20px auto;
+  padding: 15px;
+}
+.Catigoires .cat-box img {
+  width: 50px;
+}
+.Catigoires .cat-box .desc {
+  padding-right: 10px;
+}
+.Catigoires .cat-box .title {
+  font-weight: bold;
+  margin-top: 14px;
+  color: black;
+}
+.Catigoires .cat-box .num {
+  color: rgb(125, 125, 125);
+}
+@media (max-width: 992px) {
+  .Catigoires .cat-box {
+    width: 48%;
+    margin: 5px auto;
+  }
+}
+@media (max-width: 575px) {
+  .Catigoires {
+    margin-top: 0;
+  }
 }/*# sourceMappingURL=globals.css.map */

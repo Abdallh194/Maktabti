@@ -61,4 +61,11 @@
       }
     }
   }
+  @media (max-width: 575px) {
+    .text-box {
+      .head {
+        margin-top: 25px;
+      }
+    }
+  }
 }

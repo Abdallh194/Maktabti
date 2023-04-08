@@ -10,19 +10,17 @@ body {
   direction: rtl;
 }
 a {
-  text-decoration: none;
+  text-decoration: none !important;
   display: inline-block;
 }
 * {
   font-family: $main-font;
+  text-decoration: none !important;
 }
 
 $gold-color: #ffd333;
 $dark-color: #3d464d;
 
-a {
-  text-decoration: none;
-}
 .hadle-Padding-margin-Global {
   padding: 40px 0;
   margin-top: 50px;
@@ -45,6 +43,23 @@ a {
   border-color: red !important;
   border-width: 2px;
 }
+.ReactModal__Content {
+  width: 400px;
+  margin: 50px auto;
+  height: fit-content;
+  padding: 40px;
+  text-align: center;
+
+  .confirm {
+    background-color: $dark-color;
+    width: 150px;
+    margin: 10px auto;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    cursor: pointer;
+  }
+}
 @media (max-width: 992px) {
   .container {
     max-width: 665px;
@@ -57,3 +72,5 @@ a {
 @import "Assest/Shop";
 @import "Assest/cart";
 @import "Assest/checkout";
+@import "Assest/Stories";
+@import "Assest/Catigoires";

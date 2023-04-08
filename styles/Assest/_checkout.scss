@@ -17,4 +17,15 @@
     width: 150px;
     margin: 10px auto;
   }
+  .pay {
+    background-color: $gold-color;
+    padding: 10px 0;
+    text-align: center;
+    margin: 18px 0;
+    cursor: pointer;
+  }
+  .error {
+    color: red;
+    text-align: center;
+  }
 }
